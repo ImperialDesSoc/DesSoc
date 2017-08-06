@@ -1,4 +1,4 @@
-# [Dessoc website](union.ac.uk/guilds/dessoc)
+# [Dessoc website](http://www.union.ic.ac.uk/guilds/dessoc)
 
 Custom website for the **Design Engineering Society, Imperial College London**.
 
