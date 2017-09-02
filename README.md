@@ -4,6 +4,7 @@
 
 <h1 align="center">
 <a href="http://www.union.ic.ac.uk/guilds/dessoc">DesSoc Website</a>
+</h1>
 
 Custom website for the **Design Engineering Society, Imperial College London**.
 
