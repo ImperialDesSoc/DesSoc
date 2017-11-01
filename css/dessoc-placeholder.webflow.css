@@ -195,6 +195,7 @@ html.w-mod-js *[data-ix="fade-in-3"] {
   }
   .image-2 {
     position: absolute;
+    min-height: 100vh;
   }
 }
 
