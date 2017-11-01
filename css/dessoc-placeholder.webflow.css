@@ -1,0 +1,246 @@
+.body {
+  background-color: #dce0d2;
+  background-image: none;
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+.section {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: none;
+  background-image: url('../images/overlay.svg');
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.section-2 {
+  position: absolute;
+  left: 0px;
+  top: 90vh;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  background-image: url('../images/overlay-pattern.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.paragraph {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  text-align: center;
+}
+
+.paragraph.text {
+  display: inline-block;
+  font-family: 'Fontawesome webfont', sans-serif;
+  font-size: 15px;
+}
+
+.text {
+  margin-top: 63px;
+  color: #353535;
+  text-align: center;
+}
+
+.text.header {
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.text.p {
+  margin-top: 20px;
+  padding-right: 57px;
+  padding-left: 57px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  margin: 10px 20px;
+  border: 1px solid #353535;
+  border-radius: 40px;
+  background-color: hsla(0, 0%, 100%, .1);
+  font-family: 'Fontawesome webfont', sans-serif;
+  color: #353535;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.button:hover {
+  background-color: hsla(0, 0%, 100%, .2);
+}
+
+.button:active {
+  background-color: hsla(0, 0%, 100%, .5);
+}
+
+.button.text-button {
+  width: 200px;
+  height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #353535;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 800;
+}
+
+.div-block {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  margin: 40px auto 9px;
+  text-align: left;
+}
+
+.text-block {
+  display: inline-block;
+}
+
+.footer {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  color: #353535;
+  text-align: center;
+}
+
+.footer-text {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-block-2 {
+  display: inline-block;
+}
+
+.footer-link {
+  display: inline-block;
+  font-family: 'Fontawesome webfont', sans-serif;
+  color: #353535;
+  text-decoration: underline;
+}
+
+.image-2 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  display: block;
+  width: 100vw;
+}
+
+.section-3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+}
+
+html.w-mod-js *[data-ix="fade-in"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 25px);
+  -ms-transform: translate(0px, 25px);
+  transform: translate(0px, 25px);
+}
+
+html.w-mod-js *[data-ix="fade-in-2"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 25px);
+  -ms-transform: translate(0px, 25px);
+  transform: translate(0px, 25px);
+}
+
+html.w-mod-js *[data-ix="fade-in-3"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 25px);
+  -ms-transform: translate(0px, 25px);
+  transform: translate(0px, 25px);
+}
+
+@media (max-width: 991px) {
+  .section {
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-size: 2000px;
+  }
+  .footer {
+    left: 0px;
+    top: 0px;
+    right: auto;
+    bottom: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .text.header {
+    font-size: 32px;
+  }
+  .text.p {
+    font-size: 15px;
+  }
+  .footer {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+  }
+  .image-2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 479px) {
+  .section {
+    background-image: none;
+  }
+  .text.header {
+    font-size: 25px;
+  }
+  .text.p {
+    padding-right: 7%;
+    padding-left: 7%;
+    line-height: 21px;
+  }
+  .div-block {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .footer {
+    position: static;
+  }
+}
+
+@font-face {
+  font-family: 'Fontawesome webfont';
+  src: url('../fonts/fontawesome-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
