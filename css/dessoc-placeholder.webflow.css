@@ -97,6 +97,10 @@
   font-weight: 800;
 }
 
+.button.text-button.long-button {
+  width: 440px;
+}
+
 .div-block {
   margin-top: 1.5%;
   margin-bottom: 1.5%;
@@ -158,6 +162,34 @@
   z-index: 2;
 }
 
+.heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.html-embed {
+  height: 600px;
+}
+
+.video {
+  margin-top: 50px;
+}
+
+.html-embed-2 {
+  margin-top: 50px;
+}
+
+.link-block {
+  text-align: center;
+}
+
+.div-block-2 {
+  display: block;
+  text-align: center;
+}
+
 html.w-mod-js *[data-ix="fade-in"] {
   opacity: 0;
   -webkit-transform: translate(0px, 25px);
@@ -180,6 +212,9 @@ html.w-mod-js *[data-ix="fade-in-3"] {
 }
 
 @media (max-width: 991px) {
+  .body {
+    height: 100vh;
+  }
   .section {
     left: 0%;
     top: 0%;
@@ -194,7 +229,11 @@ html.w-mod-js *[data-ix="fade-in-3"] {
     bottom: auto;
   }
   .image-2 {
-    position: absolute;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
     min-height: 100vh;
   }
 }
@@ -214,10 +253,11 @@ html.w-mod-js *[data-ix="fade-in-3"] {
     display: block;
   }
   .image-2 {
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
-    overflow: visible;
+    right: 0px;
+    bottom: 0px;
   }
 }
 
@@ -226,7 +266,10 @@ html.w-mod-js *[data-ix="fade-in-3"] {
     background-image: none;
   }
   .text.header {
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: 25px;
+    line-height: 35px;
   }
   .text.p {
     padding-right: 7%;
