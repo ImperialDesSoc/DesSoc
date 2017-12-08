@@ -3,46 +3,7 @@
   background-image: none;
   background-size: auto;
   background-repeat: repeat;
-}
-
-.section {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  display: none;
-  background-image: url('../images/overlay.svg');
-  background-position: 50% 50%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.section-2 {
-  position: absolute;
-  left: 0px;
-  top: 90vh;
-  right: 0px;
-  bottom: 0px;
-  z-index: 1;
-  background-image: url('../images/overlay-pattern.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.paragraph {
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  text-align: center;
-}
-
-.paragraph.text {
-  display: inline-block;
-  font-family: 'Fontawesome webfont', sans-serif;
-  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .text {
@@ -59,8 +20,8 @@
 
 .text.p {
   margin-top: 20px;
-  padding-right: 57px;
-  padding-left: 57px;
+  padding-right: 50px;
+  padding-left: 50px;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 28px;
@@ -113,10 +74,6 @@
   text-align: left;
 }
 
-.text-block {
-  display: inline-block;
-}
-
 .footer {
   position: static;
   left: 0px;
@@ -129,10 +86,6 @@
 .footer-text {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-}
-
-.text-block-2 {
-  display: inline-block;
 }
 
 .footer-link {
@@ -169,10 +122,6 @@
   text-align: center;
 }
 
-.html-embed {
-  height: 600px;
-}
-
 .video {
   margin-top: 50px;
 }
@@ -187,6 +136,23 @@
 
 .div-block-2 {
   display: block;
+  text-align: center;
+}
+
+.series-heading {
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.series-date {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 800;
   text-align: center;
 }
 
@@ -215,12 +181,11 @@ html.w-mod-js *[data-ix="fade-in-3"] {
   .body {
     height: 100vh;
   }
-  .section {
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    background-size: 2000px;
+  .button.text-button.long-button {
+    max-height: 40px;
+    max-width: 440px;
+    min-height: 40px;
+    min-width: 440px;
   }
   .footer {
     left: 0px;
@@ -262,9 +227,6 @@ html.w-mod-js *[data-ix="fade-in-3"] {
 }
 
 @media (max-width: 479px) {
-  .section {
-    background-image: none;
-  }
   .text.header {
     padding-right: 20px;
     padding-left: 20px;
