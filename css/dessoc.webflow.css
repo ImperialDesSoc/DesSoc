@@ -238,12 +238,26 @@ html.w-mod-js *[data-ix="fade-in-3"] {
     padding-left: 7%;
     line-height: 21px;
   }
+  .button.text-button.long-button {
+    width: 200px;
+    height: 80px;
+    max-height: 100px;
+    max-width: 200px;
+    min-height: auto;
+    min-width: 200px;
+    border-radius: 20px;
+  }
   .div-block {
     padding-right: 12%;
     padding-left: 12%;
   }
   .footer {
     position: static;
+  }
+  .series-heading {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
   }
 }
 
