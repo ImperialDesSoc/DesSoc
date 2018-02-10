@@ -197,6 +197,8 @@
 }
 
 .tab-header {
+  width: 100%;
+  min-width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 20px;
@@ -214,7 +216,8 @@
   max-width: 20%;
   margin-right: 0px;
   margin-left: 0px;
-  padding: auto 0px;
+  padding-right: 0px;
+  padding-left: 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: rgba(78, 183, 72, .3);
@@ -292,6 +295,9 @@ html.w-mod-js *[data-ix="fade-in-3"] {
     bottom: 0px;
     min-height: 100vh;
   }
+  .tab-header {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -326,8 +332,11 @@ html.w-mod-js *[data-ix="fade-in-3"] {
   .voting-deadlines {
     text-align: center;
   }
+  .tab-header {
+    font-size: 14px;
+    text-align: center;
+  }
   .tab {
-    width: 100%;
     border-radius: 0px;
   }
   .tabs-content {
@@ -354,6 +363,8 @@ html.w-mod-js *[data-ix="fade-in-3"] {
   .button.text-button {
     width: 250px;
     height: 40px;
+    margin-right: -20px;
+    margin-left: -20px;
     border-radius: 40px;
     font-size: 15px;
   }
@@ -365,6 +376,9 @@ html.w-mod-js *[data-ix="fade-in-3"] {
     min-height: auto;
     min-width: 200px;
     border-radius: 20px;
+  }
+  .button.text-button.long-button.reduced {
+    height: 60px;
   }
   .div-block {
     padding-right: 12%;
@@ -384,11 +398,15 @@ html.w-mod-js *[data-ix="fade-in-3"] {
   .voting-deadlines {
     text-align: center;
   }
+  .tab-header {
+    font-size: 18px;
+  }
   .tabs-menu {
     width: 100%;
   }
   .tab {
     width: 100%;
+    max-width: 100%;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
   }
