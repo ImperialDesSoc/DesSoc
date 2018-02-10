@@ -205,11 +205,16 @@
 }
 
 .tabs-menu {
+  font-size: 0px;
   text-align: center;
 }
 
 .tab {
   width: 20%;
+  max-width: 20%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: auto 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: rgba(78, 183, 72, .3);
