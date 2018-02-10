@@ -22,9 +22,14 @@
   margin-top: 20px;
   padding-right: 50px;
   padding-left: 50px;
+  background-color: transparent;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 28px;
+}
+
+.text.p.position {
+  font-weight: 700;
 }
 
 .button {
@@ -49,17 +54,24 @@
 }
 
 .button.text-button {
-  width: 200px;
+  width: 300px;
   height: 40px;
   font-family: 'Open Sans', sans-serif;
   color: #353535;
   font-size: 18px;
   line-height: 20px;
   font-weight: 800;
+  text-align: center;
 }
 
 .button.text-button.long-button {
   width: 440px;
+}
+
+.button.text-button.big-button {
+  width: 280px;
+  height: 60px;
+  border-radius: 10px;
 }
 
 .div-block {
@@ -156,6 +168,80 @@
   text-align: center;
 }
 
+.text-block {
+  text-align: right;
+}
+
+.text-block-2 {
+  text-align: right;
+}
+
+.voting-dates {
+  color: rgba(51, 51, 51, .6);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.voting-deadlines {
+  color: rgba(51, 51, 51, .8);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.tabs {
+  margin-top: 30px;
+}
+
+.tab-header {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.tabs-menu {
+  text-align: center;
+}
+
+.tab {
+  width: 20%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgba(78, 183, 72, .3);
+  box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, .5);
+}
+
+.tab.w--current {
+  background-color: rgba(78, 183, 72, .4);
+}
+
+.tabs-content {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(78, 183, 72, .4);
+}
+
+.div-block-3 {
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 13px;
+}
+
+.div-block-4 {
+  text-align: center;
+}
+
 html.w-mod-js *[data-ix="fade-in"] {
   opacity: 0;
   -webkit-transform: translate(0px, 25px);
@@ -210,6 +296,11 @@ html.w-mod-js *[data-ix="fade-in-3"] {
   .text.p {
     font-size: 15px;
   }
+  .button.text-button {
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+  }
   .footer {
     position: static;
     left: 0px;
@@ -224,6 +315,23 @@ html.w-mod-js *[data-ix="fade-in-3"] {
     right: 0px;
     bottom: 0px;
   }
+  .voting-dates {
+    text-align: center;
+  }
+  .voting-deadlines {
+    text-align: center;
+  }
+  .tab {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .tabs-content {
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .div-block-4 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 479px) {
@@ -237,6 +345,12 @@ html.w-mod-js *[data-ix="fade-in-3"] {
     padding-right: 7%;
     padding-left: 7%;
     line-height: 21px;
+  }
+  .button.text-button {
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 15px;
   }
   .button.text-button.long-button {
     width: 200px;
@@ -258,6 +372,24 @@ html.w-mod-js *[data-ix="fade-in-3"] {
     padding-right: 15px;
     padding-left: 15px;
     font-size: 20px;
+  }
+  .voting-dates {
+    text-align: center;
+  }
+  .voting-deadlines {
+    text-align: center;
+  }
+  .tabs-menu {
+    width: 100%;
+  }
+  .tab {
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .tabs-content {
+    margin: 20px;
+    border-radius: 10px;
   }
 }
 
