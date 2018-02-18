@@ -387,6 +387,10 @@ html.w-mod-js *[data-ix="fade-in-3"] {
   .footer {
     position: static;
   }
+  .heading {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
   .series-heading {
     padding-right: 15px;
     padding-left: 15px;
