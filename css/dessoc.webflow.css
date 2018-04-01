@@ -250,6 +250,22 @@
   text-align: center;
 }
 
+.html-embed-3 {
+  display: block;
+  width: 400px;
+  height: 500px;
+  margin: 30px auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.div-block-5 {
+  text-align: center;
+}
+
 html.w-mod-js *[data-ix="fade-in"] {
   opacity: 0;
   -webkit-transform: translate(0px, 25px);
